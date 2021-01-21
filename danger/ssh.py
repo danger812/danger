@@ -31,4 +31,4 @@ def ssh_cmd(ip, uname, passwd, cmd):
 
 
 if __name__ == '__main__':
-    ssh_cmd("bi002", "axxbi", "1243biaxx", "ls /")
+    ssh_cmd("192.168.0.100", "bi", "12345667980", "ls /")
