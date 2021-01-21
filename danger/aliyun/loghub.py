@@ -13,4 +13,3 @@ class LogHubHelper(LogClient):
     """
     def __init__(self, access_id = ALI_ACCESS_ID, access_key = ALI_ACCESS_KEY, endpoint = "cn-beijing.log.aliyuncs.com"):
         super(LogHubHelper, self).__init__(endpoint, access_id, access_key)
-
